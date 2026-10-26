@@ -1,14 +1,18 @@
 # 广智新 · 企业工作空间
 
-PC V13 与 APP 的公开交互设计原型，采用红色主色与橘色点缀。
+PC V14 与 APP 的公开交互设计原型，采用红色主色与橘色点缀。
 
 ## 在线体验
 
 - 统一入口：https://rh3in.github.io/GX-home/
 - PC 工作台：https://rh3in.github.io/GX-home/pc/
 - 信息门户：https://rh3in.github.io/GX-home/pc/#portal
-- AI Agent：https://rh3in.github.io/GX-home/pc/#agent
+- AI Agent：https://rh3in.github.io/GX-home/pc/agent.html
 - APP：https://rh3in.github.io/GX-home/app/
+
+## V14 AI 工作空间
+
+新增智能体与技能、知识库、云盘、数字员工管理演示入口；历史任务支持搜索与收藏。核心能力精简为制作 PPT、分析数据、创作文档和咨询问答，采用红色主调、白色输入框和原始 3D IP。模型名称展示为 qwen3.8-27b。联网、语音和模型服务为交互入口演示。
 
 ## 内容
 
@@ -19,7 +23,8 @@ PC 版包含常用功能、AI 主动服务与提醒、统一待办、竖向日�
 ## 仓库结构
 
 - index.html：双端体验入口
-- pc/index.html：PC V13 交互原型
+- pc/index.html：PC V14 交互原型
+- pc/agent.html：V14 AI 工作空间直达入口
 - app/index.html：APP 交互原型
 - assets/：入口预览图片
 - downloads/：PC 与 APP 完整设计包
