@@ -14,6 +14,14 @@ PC V14 与 APP 的公开交互设计原型，采用红色主色与橘色点缀�
 
 新增智能体与技能、知识库、云盘、数字员工管理演示入口；历史任务支持搜索与收藏。核心能力精简为制作 PPT、分析数据、创作文档和咨询问答，采用红色主调、白色输入框和原始 3D IP。模型名称展示为 qwen3.8-27b。联网、语音和模型服务为交互入口演示。
 
+## V15 智能体 · 技能
+
+- 智能体广场：https://rh3in.github.io/GX-home/pc/catalog.html
+- 技能库：https://rh3in.github.io/GX-home/pc/catalog.html#skills
+- 完整设计包：https://rh3in.github.io/GX-home/downloads/agent-skills-v15.zip
+
+完整目录包含 6 个智能体与 6 项技能，支持分类、关键词搜索、收藏、详情和携带提示词开始任务。页面延续红色主调及原始 3D IP，PC 主入口和 AI 入口均已接入新版目录。
+
 ## 内容
 
 PC 版包含常用功能、AI 主动服务与提醒、统一待办、竖向日程、审批、会议、信息门户与 AI 助手挂件。APP 包含工作台、信息门户、AI 助理、消息中心和我的五个入口。手机访问 APP 自动适应视口，电脑访问显示手机画框。
@@ -25,6 +33,7 @@ PC 版包含常用功能、AI 主动服务与提醒、统一待办、竖向日�
 - index.html：双端体验入口
 - pc/index.html：PC V14 交互原型
 - pc/agent.html：V14 AI 工作空间直达入口
+- pc/catalog.html：智能体与技能独立入口
 - app/index.html：APP 交互原型
 - assets/：入口预览图片
 - downloads/：PC 与 APP 完整设计包
