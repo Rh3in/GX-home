@@ -71,3 +71,13 @@ PC 版包含常用功能、AI 主动服务与提醒、统一待办、竖向日�
 - 完整设计包：https://rh3in.github.io/GX-home/downloads/gx-scan-login.zip
 
 页面为扫码后的前端确认步骤演示，未接入真实二维码扫描、登录授权或 PC 会话服务。
+
+
+## APP 网络异常页
+
+红白配色的网络异常状态页，使用轻立体路由器、断开的红色 Wi-Fi 信号弧和橘色提示浮标插图。标题为“网络暂时无法连接”，提供网络检查说明和一个“重试”按钮。
+
+- 在线预览：https://rh3in.github.io/GX-home/app/network-error.html
+- 完整设计包：https://rh3in.github.io/GX-home/downloads/gx-network-error.zip
+
+默认重试为前端等待状态演示，可通过 window.GX_NETWORK_RETRY 异步函数接入实际业务请求。未接入真实网络探测或服务端接口。HTML 内嵌全部所需资源，可独立离线打开。
